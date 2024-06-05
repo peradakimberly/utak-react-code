@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h4 {
+  color:rgb(60, 60, 60);
+}
+
+.body {
+  padding: 40px 5% 50px 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(86, 96, 69);
+}
+.body h1 {
+  color:white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  width: 100%;
+  gap: 50px;
+}
+
+.summary-add-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.summary-panel {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+}
+.summary-panel ul {
+  list-style: none;
+}
+
+.input-panel {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+}
+.add-field {
+  display: flex;
+  justify-content: space-between;
+}
+.add-button {
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  background-color: rgb(49, 124, 199);
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+}
+.add-button:hover {
+  background-color: rgb(39, 104, 179);
+}
+
+.menu-panel-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.menu-panel {
+  width: 400px;
+  height: 130px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sale {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.edit {
+  height: 30px;
+  width: 90px;
+  border: none;
+  background-color:rgb(55, 153, 99);
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.edit:hover {
+  background-color: rgb(44, 117, 77);
+}
+.delete {
+  height: 30px;
+  width: 90px;
+  border: none;
+  background-color:rgb(165, 50, 50);
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+}
+.delete:hover {
+  background-color:rgb(143, 43, 43);
+}
+
+.sales-summary-container {
+  width: 50%;
+  min-width: 400px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.sales-summary {
+  display: flex;
+  width: 80%;
+  min-width: 450px;
+  justify-content: space-between; 
+}
+.sold-list ul {
+  list-style: none; 
+} 
+.sold-list li {
+  margin-bottom: 10px;
+}
+.sold-total {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sold-total h1 {
+  color:rgb(60, 60, 60);
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+.modal-content {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+}
+.modal-content h2 {
+  text-align: center;
+}
+.modal-content input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.modal-button {
+  display: flex;
+  justify-content: space-between;
+}
+.save {
+  width: 150px;
+  height: 30px;
+  border: none;
+  background-color: rgb(55, 153, 99);
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+}
+.save:hover {
+  background-color: rgb(44, 117, 77);
+}
+.cancel {
+  width: 150px;
+  height: 30px;
+  border: none;
+  background-color: rgb(49, 124, 199);
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cancel:hover {
+  background-color: rgb(39, 104, 179);
+}
+
+.modal-button .delete {
+  width: 150px;
+  height: 30px;
+  border: none;
+  background-color: rgb(165, 50, 50);
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+}
+.modal-content p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.modal-button .delete:hover {
+  background-color:rgb(143, 43, 43);
+}
